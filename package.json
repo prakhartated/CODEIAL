@@ -1,0 +1,26 @@
+{
+  "name": "codeial",
+  "version": "1.0.0",
+  "description": "my all social media web application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prakhartated/CODEIAL.git"
+  },
+  "keywords": [
+    "social"
+  ],
+  "author": "Prakhar Tated",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prakhartated/CODEIAL/issues"
+  },
+  "homepage": "https://github.com/prakhartated/CODEIAL#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
