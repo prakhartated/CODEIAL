@@ -6,19 +6,19 @@ const userSchema = new mongoose.Schema({
         required: true,
         unique: true
     },
-
     password: {
         type: String,
-        reqquired: true
+        required: true
     },
     name: {
         type: String,
-        reqquired: true
+        required: true
     }
-} , {
+}, {
     timestamps: true
 });
 
-const User = mongoose.model('User' , userSchema);
+
+const User = mongoose.model('User', userSchema);
 
 module.exports = User;
